@@ -22,4 +22,4 @@ console.log(contaCorrenteLucas);
 console.log(contaPoupançaLucas);
 console.log(ContaSalarioLucas);
 
-console.log(lucasLogado);
+console.log(`Usuário está logado?: ${lucasLogado}`);

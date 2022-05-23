@@ -8,5 +8,9 @@ Diretor1.cadastrarSenha("cms1234")
 const Gerente1 = new Gerente("Kallyl", 5000, 11122233311);
 Gerente1.cadastrarSenha("Cms@1234")
 
-const Logado = sistemaAutenticacao.login(Diretor1, "cms1234")
-console.log(Logado);
+const diretorLogado = sistemaAutenticacao.login(Diretor1, "cms1234");
+const gerenteLogado = sistemaAutenticacao.login(Diretor1, "cms1234");
+
+console.log(Diretor1);
+console.log(Gerente1);
+console.log(`Usuários estão logados?: ${diretorLogado} | ${gerenteLogado}`);
