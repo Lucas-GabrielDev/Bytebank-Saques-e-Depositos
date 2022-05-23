@@ -1,5 +1,5 @@
-import { Diretor } from "./Funcionário/Diretor.js";
-import { Gerente } from "./Funcionário/Gerente.js";
+import {Diretor} from "./Funcionário/Diretor.js";
+import {Gerente} from "./Funcionário/Gerente.js";
 import {sistemaAutenticacao} from "./sistemaAutenticação.js";
 
 const Diretor1 = new Diretor("Genivaldo", 10000, 11122244410);
